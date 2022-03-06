@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted Content"
+AuthUserFile /etc/httpd/.htpasswd_admin
+AuthUserFile /etc/httpd/.htpasswd_it
+Require walter

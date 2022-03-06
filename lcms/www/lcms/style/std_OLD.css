@@ -1,0 +1,139 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(/images/BG01.jpg);
+    background-size: cover;
+	color: white;
+}
+form.form {
+    width: 100%;
+	height: 100%;
+    text-align: center;  
+	background: rgba(0, 100, 100, 0.3); 
+}
+
+form.main{
+	width: 100%;
+    text-align: center; 
+}
+
+.center {
+    width: 45%;
+    margin: auto;
+
+}
+
+p {
+    margin: 10px 0;
+    font-weight: bold;
+	font-style: italic;
+	font-size: 150%;
+}
+
+.input {
+    width: 98%;
+	text-align: center; 
+    margin: auto;
+    margin-top: 10px;
+}
+
+.tab {
+    width: 100%;
+	margin: auto;
+    margin-top: 10px;
+}
+
+.submita {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: #D3D3D3;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  padding: 14px 28px;
+}
+
+.submita:hover{
+ background-color: black;
+ color: white;
+}
+
+.block {
+  display: block;
+  border-radius: 7px;
+  width: 100%;
+  border: solid;
+  background-color: #EFC050;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+}
+
+.block:hover{
+ background-color: #4CAF50;
+ color: white;
+}
+
+.blocka {
+  display: block;
+  border-radius: 7px;
+  width: 100%;
+  border: solid;
+  background-color: green;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+}
+
+.blocka:hover{
+ background-color: #4CAF50;
+ color: white;
+}
+
+.taba {
+  display: block;
+  border-radius: 7px;
+  width: 90%;
+  margin: auto;
+  border: none;
+  background-color: #EFC050;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.taba:hover{
+ background-color: #4CAF50;
+ color: white;
+}
+
+.flex {
+    display: flex;
+	height: auto;
+	flex-direction: row;
+    justify-content: space-between;
+	border: solid 4px #ffffff;
+	background: rgba(0, 100, 100, 0.3); 
+}
+
+.right {
+    width: 80%;
+	height: 100%; 
+    text-align: left;
+	}
+
+
+.left {
+    width: 20%;
+	height: 100%;
+    text-align: center;  
+	background: rgba(0, 100, 100, 0.3); 
+    border-right: solid 4px #ffffff;
+}
+
+
